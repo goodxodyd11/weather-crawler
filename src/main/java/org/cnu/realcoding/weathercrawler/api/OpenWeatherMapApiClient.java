@@ -11,7 +11,7 @@ public class OpenWeatherMapApiClient {
     @Autowired
     private RestTemplate restTemplate;
 
-    private final String apiKey = "b59b2f6b4c62b33a007db6708713d1e6";
+    private final String apiKey = "21ce58f90b32ce4eb14a5554523eb94d";
     private final String currentWeatherUri = "http://api.openweathermap.org/data/2.5/weather?q={cityName}&APPID={apiKey}";
 
     public CurrentWeather getCurrentWeather(String cityName) {
